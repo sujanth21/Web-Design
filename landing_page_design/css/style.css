@@ -22,3 +22,40 @@ html, body {
     font-family: 'Pacifico', cursive;
     font-size: 3em;
 }
+
+#icons {
+    text-align: center;
+}
+
+#icons .fa {
+    color: white;
+    margin: 15px 15px;
+    position: relative;
+    bottom: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+#icons .twitter:hover {
+    color: #6cadde;
+    bottom: 5px;
+}
+
+#icons .facebook:hover {
+    color: #3b5998;
+    bottom: 5px;
+}
+
+#icons .google:hover {
+    color: #e84335;
+    bottom: 5px;
+}
+
+#icons .linkedin:hover {
+    color: #6cadde;
+    bottom: 5px;
+}
+
+#icons .instagram:hover {
+    color: #517fa6;
+    bottom: 5px;
+}
