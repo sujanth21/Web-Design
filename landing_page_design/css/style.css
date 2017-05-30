@@ -1,7 +1,31 @@
 html, body {
-    background: url("../img/bg.jpg") center no-repeat;
+    background: url("../img/bg.jpg") center center no-repeat;
     height: 100%;
     background-size: cover;
+}
+
+@media(max-width: 768px) {
+
+    #logo img {
+        width: 50%;
+    }
+
+    #counter .countdown {
+        font-size: 1.2em !important;
+    }
+
+    #icons .fa {
+        margin: 10px 0px 0px !important;
+        font-size: 2em;
+    }
+}
+
+@media(min-width: 413px)
+    and (max-width: 733px) {
+
+        #logo img {
+            width: 20%;
+        }
 }
 
 #logo img {
@@ -58,4 +82,21 @@ html, body {
 #icons .instagram:hover {
     color: #517fa6;
     bottom: 5px;
+}
+
+#signup {
+    text-align: center;
+}
+
+#signup .form-inline {
+    display: block;
+}
+
+#signup .btn {
+    background-color: rgba(161, 186, 226, 0.5);
+    color: white;
+}
+
+#signup .btn:hover {
+    background-color: rgba(37, 165, 82, 1);
 }
